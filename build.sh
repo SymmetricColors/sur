@@ -9,4 +9,4 @@ echo "lssssss"
 cd builds/bin/
 a=`ls`
 echo $a
-ll
+ls -lah
