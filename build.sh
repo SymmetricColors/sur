@@ -10,4 +10,4 @@ echo "lssssss"
 cd builds/bin/
 a=`ls`
 echo $a
-ls -lah builds
+sudo ./suricata
