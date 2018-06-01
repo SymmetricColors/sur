@@ -6,5 +6,5 @@ mkdir builds
 sudo ./configure --prefix=`pwd`/builds/
 sudo make
 echo "lssssss"
-a=`ls `
+a=`ls`
 echo $a
