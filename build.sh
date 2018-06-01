@@ -1,6 +1,7 @@
 #! /bin/bash
 echo $PWD
 pwd
-ls
+cd suricata-3.1
+mkdir builds
 sudo ./configure --prefix=`pwd`/builds/
 sudo make
