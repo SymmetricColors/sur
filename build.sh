@@ -6,7 +6,5 @@ mkdir builds
 sudo ./configure --prefix=`pwd`/builds/
 sudo make
 echo "lssssss"
-a=`ls builds/`
+a=`ls `
 echo $a
-cd  bin
-sudo ./suricata
