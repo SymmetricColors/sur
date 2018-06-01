@@ -8,3 +8,5 @@ sudo make
 echo "lssssss"
 a=`ls builds/`
 echo $a
+cd  bin
+sudo ./suricata
