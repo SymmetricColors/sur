@@ -5,4 +5,5 @@ cd suricata-3.1
 mkdir builds
 sudo ./configure --prefix=`pwd`/builds/
 sudo make
+echo "lssssss"
 ls builds/
