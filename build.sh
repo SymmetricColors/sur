@@ -1,6 +1,5 @@
 #! /bin/bash
-echo pwd
+echo $PWD
 pwd
 sudo ./configure --prefix=`pwd`/builds/
-sudo  make clean
 sudo make
